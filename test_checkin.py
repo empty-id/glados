@@ -42,5 +42,5 @@ try:
 except:
     data = {"message": r.text}
 status = "Checkin! Get 1 Day" in data["message"]
-send = requests.post('https://sctapi.ftqq.com/{}.send'.format(os.envirion['SEND']), data={"title": "签到成功" if status else "签到失败", "desp": data["message"]})
+send = requests.post('https://sctapi.ftqq.com/{}.send'.format(os.environ['SEND']), data={"title": "签到成功" if status else "签到失败", "desp": data["message"]})
 print(send.text)
