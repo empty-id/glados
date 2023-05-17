@@ -1,7 +1,7 @@
 name: checkin
 on:
   schedule:
-    - cron: "49 8 * * *"
+    - cron: "45 1 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,7 +10,11 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - run: |
+      - env:
+          SESS: ${{ secrets.SESS }}
+          SIG: ${{ secrets.SIG }}
+          SEND: ${{ secrets.SEND }}
+        run: |
           python -m pip install --upgrade pip
           pip install requests
           python test_checkin.py
