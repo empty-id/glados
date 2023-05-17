@@ -19,6 +19,7 @@ cookie = {'koa:sess':os.environ['SESS'],
 '_gid':'GA1.2.1787289856.1679884853',
 '_ga_CZFVKMNT9J':'GS1.1.1679884852.12.1.1679884886.0.0.0',
 '_ga':'GA1.1.711380114.1609501707'}
+print(cookie)
 
 def msg_to_map(msg):
     msg = msg.split('\n')
