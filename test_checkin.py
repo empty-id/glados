@@ -5,7 +5,7 @@ sec-ch-ua: "Microsoft Edge";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
 accept: application/json, text/plain, */*
 content-type: application/json;charset=UTF-8
 sec-ch-ua-mobile: ?0
-authorization: 6508525923683601371858261555053-900-1440
+authorization: 87591637160657701040902129014108-982-1512
 user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54
 sec-ch-ua-platform: "macOS"
 origin: https://glados.rocks
