@@ -34,7 +34,7 @@ import requests
 
 url = 'https://glados.rocks/api/user/checkin'
 
-r = requests.post(url, data='{"token":"glados.network"}', headers=msg, cookies=cookie)
+r = requests.post(url, data='{"token":"glados.one"}', headers=msg, cookies=cookie)
 print(r.text)
 
 import json
