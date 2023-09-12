@@ -16,8 +16,8 @@ accept-encoding: gzip, deflate, br
 accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6'''
 cookie = {'koa:sess':os.environ['SESS'],
 'koa:sess.sig':os.environ['SIG'],
-'_gid':'GA1.2.681790979.1690526270',
-'_ga_CZFVKMNT9J':'GS1.1.1690526269.4.1.1690526422.0.0.0',
+'_gid':'GA1.2.485161571.1694396981',
+'_ga_CZFVKMNT9J':'GS1.1.1694514039.36.1.1694514277.0.0.0',
 '_ga':'GA1.1.1418506433.1689324302'}
 print(cookie)
 
